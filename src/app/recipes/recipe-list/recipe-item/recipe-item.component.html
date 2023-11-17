@@ -1,9 +1,29 @@
-<a style="cursor: pointer;" class="list-group-item clearfix" routerLinkActive="active" [routerLink]="[index]" >
-    <div class="pull-left">
-        <h4 class="list-group-item-heading">{{ recipe.name }}</h4>
-        <p class="list-group-item-text">{{ recipe.description }}</p>
+<a
+  style="cursor: pointer"
+  class="list-group-item list-group-item-action"
+  [routerLink]="[index]"
+  routerLinkActive="active"
+>
+  <div class="d-flex">
+    <div class="flex-grow-1">
+      <div class="d-flex flex-column">
+        <h4 class="mb-1">{{ recipe.name }}</h4>
+        <p class="mb-1">
+          {{
+            recipe.description.length > 5
+              ? (recipe.description | slice : 0 : 50) + "..."
+              : recipe.description
+          }}
+        </p>
+      </div>
     </div>
-    <span class="pull-right">
-        <img [src]="recipe.imagePath" alt={{recipe.name}} class="img-responsive" style="max-height: 50px;">
-    </span>
+    <div class="ml-3">
+      <img
+        [src]="recipe.imagePath"
+        alt="{{ recipe.name }}"
+        class="img-fluid rounded"
+        style="max-height: 120px; max-width: 120px"
+      />
+    </div>
+  </div>
 </a>

@@ -1,0 +1,10 @@
+.item-cart{
+    border: 1px solid #becfa8;
+    border-radius: 24px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.item-cart:hover{
+    transform: scale(0.95);
+}

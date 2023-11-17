@@ -1,15 +1,19 @@
 .nav-text {
   color: white;
   font-weight: bold;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
 
-.nav-text:hover{
-    transform: scale(0.9);
-    opacity: calc(0.9);
+.nav-text:hover {
+  transform: scale(0.9);
+  opacity: calc(0.9);
 }
 
-.option-clickens:active{
-    background-color: transparent;
+.option-clickens {
+  width: 50px;
+}
+
+.option-clickens:active {
+  background-color: transparent;
 }

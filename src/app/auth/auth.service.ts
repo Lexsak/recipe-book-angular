@@ -26,7 +26,7 @@ export class AuthService {
 
     signup(email: string, password: string) {
         return this.http.post<AuthResponseData>(
-            'https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyA8r8i2EN3Dlxyu7OSW8ZCzffmsqUq4kSA',
+            'https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AaaaIzaSyA8r8i2EN3Dlxyu7OSW8ZCzffmsqUq4kSA',
             {
                 email: email,
                 password: password,
@@ -125,7 +125,7 @@ export class AuthService {
     private handleError(errorRes: HttpErrorResponse) {
         console.error('Error response:', errorRes);
 
-        let errorMessage = 'An unknown error occurred!';
+        let errorMessage = "An unknown error occurred! Try login email 'test@test.com' and password 'Test123'";
         if (!errorRes.error || !errorRes.error.error) {
             return throwError(errorMessage);
         }
@@ -134,7 +134,7 @@ export class AuthService {
                 errorMessage = 'This email exists already';
                 break;
             case 'INVALID_LOGIN_CREDENTIALS':
-                errorMessage = 'This email or password is not correct.';
+                errorMessage = "This email or password is not correct. Try email 'test@test.com' and password 'Test123'";
                 break;
         }
         return throwError(errorMessage);

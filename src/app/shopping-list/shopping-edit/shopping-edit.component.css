@@ -1,3 +1,15 @@
 .col-xs-12 button {
-    margin-right: 10px;
+  margin-right: 10px;
+}
+
+.btn-clear {
+  background-color: #16c976;
+  border: 1px solid #16c976;
+  color: #fff;
+  transition: all .3 ease-in-out;
+}
+
+.btn-clear:hover{
+  background-color: #0dc06c;
+  border: 1px solid #0dc06c;
 }

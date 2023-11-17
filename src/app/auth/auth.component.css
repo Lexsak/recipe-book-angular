@@ -40,3 +40,19 @@ h2 > span {
 input.ng-invalid.ng-touched{
     border: 1px solid red;
 }
+
+.leaf,
+.dish {
+  width: 350px;
+  height: 350px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left top;
+  position: absolute;
+  z-index: -1;
+}
+
+.dish {
+  width: 462px;
+  height: 461px;
+}

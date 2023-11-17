@@ -22,3 +22,15 @@
 .alert-box-actions{
     text-align: right;
 }
+
+.btn-clear {
+  background-color: #198754;
+  border: 1px solid #198754;
+  color: #fff;
+  transition: all .3 ease-in-out;
+}
+
+.btn-clear:hover{
+  background-color: #105a37;
+  border: 1px solid #105a37;
+}

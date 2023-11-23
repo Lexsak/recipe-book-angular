@@ -10,10 +10,6 @@ export class ShoppinListService {
     new Ingredient('Apples', 5),
     new Ingredient('Tomatoes', 15),
     new Ingredient('Potatoes', 10),
-    new Ingredient('Potatoes', 10),
-    new Ingredient('Potatoes', 10),
-    new Ingredient('Potatoes', 10),
-    new Ingredient('Potatoes', 10),
   ];
 
   getIngredients() {

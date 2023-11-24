@@ -4,7 +4,7 @@ Recipe Book Angular is a web application that allows users to manage recipes and
 
 ## Live Demo
 
-Check out the live [demo](https://ng-recipe-book-e4619.web.app/auth)
+Check out the live [demo](https://ng-recipe-book-e4619.web.app)
 
 ## Features
 

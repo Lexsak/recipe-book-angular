@@ -23,12 +23,12 @@ Check out the live [demo](https://ng-recipe-book-e4619.web.app/auth)
 Here are some screenshots to give you a glimpse of the Recipe Book Angular application:
 
 ### Authentication
-
-![image](https://github.com/Lexsak/recipe-book-angular/assets/143490317/a587b956-673b-4b28-b5d0-bd8a837f764a)
+![image](https://github.com/Lexsak/recipe-book-angular/assets/143490317/a5bdd66e-074e-4475-849e-cb41e4a8c985)
 
 ### Shopping List
-![image](https://github.com/Lexsak/recipe-book-angular/assets/143490317/afcc6af4-1487-408c-8475-e1865eca0325)
+![image](https://github.com/Lexsak/recipe-book-angular/assets/143490317/2b5f6389-5ad6-4791-b405-461c85c68220)
 
 ### Recipes Section
-![image](https://github.com/Lexsak/recipe-book-angular/assets/143490317/8ce886a2-6ee8-42d4-93c5-6f60a74d9ff8)
+![image](https://github.com/Lexsak/recipe-book-angular/assets/143490317/32dd8bbc-a6db-45fb-9a1c-a68b71b5fb0a)
+
 

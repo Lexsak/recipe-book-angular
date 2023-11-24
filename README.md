@@ -1,27 +1,34 @@
-# ShoppRecipe
+# Recipe Book Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
+Recipe Book Angular is a web application that allows users to manage recipes and create shopping lists. The application utilizes Angular and Firebase for a seamless and responsive user experience.
 
-## Development server
+## Live Demo
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Check out the live [demo](https://ng-recipe-book-e4619.web.app/auth)
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **User Authentication**: Users can log in with the provided credentials (email: 'test@test.com', password: 'Test123'). Before logging in, only the shopping list functionality is available.
 
-## Build
+- **Shopping List Management**: Users can add, edit, and delete ingredients in the shopping list.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Recipes Section**: After logging in, users gain access to the Recipes section, where they can:
+  - Add new recipes.
+  - Save recipes to the Firebase database.
+  - Fetch saved recipes from the database.
+  - Edit or delete existing recipes.
 
-## Running unit tests
+## Screenshots
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Here are some screenshots to give you a glimpse of the Recipe Book Angular application:
 
-## Running end-to-end tests
+### Authentication
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+![image](https://github.com/Lexsak/recipe-book-angular/assets/143490317/a587b956-673b-4b28-b5d0-bd8a837f764a)
 
-## Further help
+### Shopping List
+![image](https://github.com/Lexsak/recipe-book-angular/assets/143490317/afcc6af4-1487-408c-8475-e1865eca0325)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Recipes Section
+![image](https://github.com/Lexsak/recipe-book-angular/assets/143490317/8ce886a2-6ee8-42d4-93c5-6f60a74d9ff8)
+
